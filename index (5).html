@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camera&ScreenAccess</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div >
+  <h1>Hello, Welcome</h1>
+  <p>
+    click on camera or screen icon to access camera and screen and shot to take snapshot. click stop to stop video. click start to record audio and convert into text. stop-record to stop it. and click speak to listen the text
+  </p>
+</div>
+  <link rel="stylesheet" href="style.css">
+
+
+<video src="" id="video" autoplay style="border: 1px solid black;" height="400px"  >
+</video>
+
+  <button onclick="camera()">Camera</button>
+  <button onclick="screen()">Screen</button>
+  <button onclick="stop()">stop</button>
+  <button onclick="window.print()">shot</button>
+  <br>
+  <br>
+  <button id="start-btn">Start-Record</button> 
+  <div id="speakNow"></div>
+  <br><br>
+  <button id="stop-btn">Stop-Record</button>
+  <br><br>
+  <button onclick="speak()">Speak</button>
+  <br>
+  <br>
+  <br>
+  <label for="#output">TextArea:-</label>
+  <textarea id="output" rows="4" cols="50"></textarea><br>
+  <div id="typings" style="display: none;">Typing...</div>
+
+  <script src="script.js"></script>
+</body>
+ 
+</html>
