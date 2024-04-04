@@ -37,7 +37,6 @@ async function camera(){
       locationElement.style.textDecoration = "underline double"; 
       locationElement.style.fontWeight = "bold"; 
 
-
     });
 
 
