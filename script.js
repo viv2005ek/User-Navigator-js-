@@ -34,6 +34,9 @@ async function camera(){
         locationElement.style.position = "absolute"; 
         locationElement.style.top = "10px"; 
         locationElement.style.right = "40px"; 
+      locationElement.style.textDecoration = "underline double"; 
+      locationElement.style.fontWeight = "bold"; 
+
     });
 
 
@@ -48,6 +51,8 @@ async function camera(){
   batteryLevelElement.style.position = "absolute"; 
   batteryLevelElement.style.right = "40px"; 
     batteryLevelElement.style.top = "40px"; 
+    batteryLevelElement.style.textDecoration = "underline double"; 
+    batteryLevelElement.style.fontWeight = "bold"; 
 
 })();
 
