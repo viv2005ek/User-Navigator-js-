@@ -11,6 +11,7 @@ This project is a simple web application that allows users to access their camer
 - Display battery level
 - Display current location (latitude and longitude)
 
+
 ## Technologies Used
 - HTML5
 - CSS3
