@@ -28,3 +28,5 @@ This project is a simple web application that allows users to access their camer
 7. Click on the "Stop-Record" button to stop recording audio.
 8. Click on the "Speak" button to listen to the recorded text.
 
+## view on Replit
+https://replit.com/@viv2005ek/CameraScreenAccessVoiceTo-TextTextTovoicePrinttyping
