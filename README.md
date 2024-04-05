@@ -16,6 +16,7 @@ This project is a simple web application that allows users to access their camer
 - CSS3
 - JavaScript
 
+
 ## Usage
 1. Open `index.html` in your web browser.
 2. Click on the "Camera" button to access your camera.
